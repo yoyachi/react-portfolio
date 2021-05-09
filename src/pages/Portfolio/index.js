@@ -1,14 +1,14 @@
-import React from 'react';
-import Project from '../Project';
+import React,{useState} from 'react';
+import Project from '../../components/Project';
 
 function Portfolio() {
-	const projects = [
+
+	const [projects,setProjects] =useState([
 		{
 			name: 'App Now Playing',
 			description:
 				'Now Playing is a music-focused social media app for sharing and discovering new music. Users can create posts, like posts and add comments. The home feed can be filtered based on different criteria including genre and decade. The is also a search page to find specific users or posts.',
-			image: 'https://user-images.githubusercontent.com/69886471/114311521-bb2cd380-9ab4-11eb-8168-ce78881d2146.png, https://user-images.githubusercontent.com/69886471/114311407-38a41400-9ab4-11eb-856b-765b1c0c1616.png, ',
-            
+			image: 'https://user-images.githubusercontent.com/69886471/114311521-bb2cd380-9ab4-11eb-8168-ce78881d2146.png',            
 			technologies: [
 				'CSS',
 				'MySql2',
@@ -67,12 +67,13 @@ function Portfolio() {
 			name: 'Note Taker',
 			description:
 				'This application allows the user to enter notes and as they save, they appear in the sidebar on the left. Notes can be deleted by clicking the trash can next to the corresponding note.',
+            image: ''  ,  
 			technologies: ['HTML/CSS', 'JavaScript', 'Express.js'],
 			github: 'https://github.com/yoyachi/note-taker',
 			deployed: 'https://yoyachi.github.io/note-taker/',
 		},
-	];
-
+	]);
+     console.log(projects)
 	return (
 		<section>
 			<div className="center">
@@ -81,26 +82,26 @@ function Portfolio() {
 			<div>
 				<ul className="flex-row mobile-row">
 					<li className="padding">
-						<Project projects={projects[0]}></Project>
+						<Project work={projects[0]}></Project>
 					</li>
 					<li className="padding">
-						<Project projects={projects[1]}></Project>
-					</li>
-				</ul>
-				<ul className="flex-row mobile-row">
-					<li className="padding">
-						<Project projects={projects[2]}></Project>
-					</li>
-					<li className="padding">
-						<Project projects={projects[3]}></Project>
+						<Project work={projects[1]}></Project>
 					</li>
 				</ul>
 				<ul className="flex-row mobile-row">
 					<li className="padding">
-						<Project projects={projects[4]}></Project>
+						<Project work={projects[2]}></Project>
 					</li>
 					<li className="padding">
-						<Project projects={projects[5]}></Project>
+						<Project work={projects[3]}></Project>
+					</li>
+				</ul>
+				<ul className="flex-row mobile-row">
+					<li className="padding">
+						<Project work={projects[4]}></Project>
+					</li>
+					<li className="padding">
+						<Project work={projects[5]}></Project>
 					</li>
 				</ul>
 			</div>

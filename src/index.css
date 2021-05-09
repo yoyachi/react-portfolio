@@ -5,8 +5,8 @@ main {
 }
 
 :root {
-	--primary: #499167;
-	--secondary: #2E282A;
+	--primary: #457b9d;
+	--secondary: #1d3557;
 	--tertiary: #f0f2a6;
 	--quaternary: #39a9db;
 	--quinary: #bfd7ea;
@@ -35,7 +35,7 @@ body {
 	line-height: 1.5;
 	font-size: 18px;
 	letter-spacing: .1em;
-	background: var(--dark);
+	background: rgb(13 110 253 / 25%);
 	color: var(--light);
 	/* font-family: 'Poiret One', cursive; */
 	font-family: 'Courier New', Courier, monospace;
