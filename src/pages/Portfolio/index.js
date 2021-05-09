@@ -1,9 +1,10 @@
 import React,{useState} from 'react';
-import Project from '../../components/Project';
+import Project from '../Project';
 
 function Portfolio() {
 
-	const [projects,setProjects] =useState([
+	//const [projects,setProjects] =useState([
+		const projects =[
 		{
 			name: 'App Now Playing',
 			description:
@@ -59,21 +60,42 @@ function Portfolio() {
 			description:
 				'This is an application that allows you to generate a password from 8 to 128 characters based on criteria you select.',
 			image: 'https://user-images.githubusercontent.com/69886471/115120653-3b02e400-9f74-11eb-9472-ab7fe202bac0.png',
-			technologies: ['HTML/CSS', 'JavaScript'],
+			technologies: [
+				'HTML/CSS', 
+				'JavaScript'
+			],
 			github: 'https://github.com/yoyachi/password-chall',
 			deployed: 'https://yoyachi.github.io/password-chall/',
 		},
 		{
 			name: 'Note Taker',
-			description:
-				'This application allows the user to enter notes and as they save, they appear in the sidebar on the left. Notes can be deleted by clicking the trash can next to the corresponding note.',
-            image: ''  ,  
-			technologies: ['HTML/CSS', 'JavaScript', 'Express.js'],
+			description: 'This application allows the user to enter notes and as they save, they appear in the sidebar on the left. Notes can be deleted by clicking the trash can next to the corresponding note.',
+            image: 'Screen Shot 2021-05-09 at 10.50.11 AM',  
+			technologies: [
+				'HTML/CSS', 
+				'JavaScript', 
+				'Express.js'
+			],
 			github: 'https://github.com/yoyachi/note-taker',
 			deployed: 'https://yoyachi.github.io/note-taker/',
 		},
-	]);
-     console.log(projects)
+		{
+			name: 'Work Day Scheduler',
+			description: 'This is a simple calendar application that allows a user to save events for each hour of the day.',
+			image: '',
+			technologies: [
+				'index.html', 
+				'CSS', 
+				'javaScript', 
+				'moment.js', 
+				'jquery', 
+				'bootstrap',
+			],
+			github: 'https://github.com/yoyachi/work-day-scheduler',
+			deployed: 'https://yoyachi.github.io/work-day-scheduler/',
+		}
+	];
+     //console.log(projects)
 	return (
 		<section>
 			<div className="center">
