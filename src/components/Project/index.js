@@ -32,7 +32,7 @@ function Project(props) {
 		<Card style={{ width: "18rem" }}>
 			<Card.Img
 				variant="top"
-				src={`/images/${image}`}
+				src={`/react-portfolio/images/${image}`}
 				className="card-image"
 			/>
 			<div className="center">
