@@ -1,6 +1,6 @@
 import React from 'react';
 import Project from '../Project';
-import  { FaGithub }  from 'react-icons/fa';
+//import  { FaGithub }  from 'react-icons/fa';
 //import images from '../..assets/images'
 
 
