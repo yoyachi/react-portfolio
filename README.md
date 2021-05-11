@@ -1,6 +1,6 @@
-#React Portfolio
+# React Portfolio
 
-##Description
+## Description
 
 This is my full stack developer portfolio that was created using React.js. Mainly it contents:
 
@@ -9,7 +9,8 @@ This is my full stack developer portfolio that was created using React.js. Mainl
 * A single Projec component that will be used multiple times in the Portfolio section.
 * A single Footer component that appears on multiple pages.
 
-## Link depoyment
+## Links
 
+**https://github.com/yoyachi/react-portfolio/tree/master**
 
 
