@@ -9,8 +9,8 @@ function Project(props) {
 	const description = currentProject.description;
 	const image = currentProject.image;
 	const techs = currentProject.technologies;
-	const appLink = currentProject.deployed;
 	const gitLink = currentProject.github;
+    const appLink = currentProject.deployed;
 
 	// This function parses the information from the array and creates a list.
 	function getTechs(techArray) {
@@ -69,4 +69,3 @@ export default Project;
 
 
 
-export default Project;
