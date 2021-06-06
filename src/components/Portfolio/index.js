@@ -96,6 +96,23 @@ function Portfolio() {
 			github: 'https://github.com/yoyachi/work-day-scheduler',
 			deployed: 'https://yoyachi.github.io/work-day-scheduler',
 		},
+		{
+			name: 'Project-3',
+			description:
+				'Project 3 is a React Application project for our full stack JavaScrip development boot-camp at the University of Texas. This application is a T-shirt store named Flambot Corp, where you would be able to shop for t-shirts by filtered selection, signup/Login, and checkout using Stripe online payment.',
+			image: 'project-3.png',
+			technologies: [
+				'JavaScript',
+				'React',
+				'IdexedDB',
+				'Node.js',
+				'Web-vitals',
+				'Jest',
+			],
+			github: 'https://github.com/yoyachi/project-3',
+			deployed: 'https://flambot-corp.herokuapp.com/',
+		},
+		
 	];
      //console.log(projects)
 	return (
@@ -128,38 +145,14 @@ function Portfolio() {
 						<Project work={projects[5]}></Project>
 					</li>
 				</ul>
+				<ul className="flex-row mobile-row">
+					<li className="padding">
+						<Project work={projects[6]}></Project>
+					</li>
+				</ul>
 			</div>
 		</section>
 	);
 }
 
 export default Portfolio;
-/*
-function photoReturn(img) {
-	switch(img) {
-		case 'Now Playing':
-			return <img src={nowPlaying} alt='Now Playing' />;
-		case 'Cinequiz':
-			return <img src={cinequiz} alt='Cinequiz' />;
-		default:
-			return '';
-	}
-}
-return (
-	<section id="projects">
-		{projects.map((project) => (
-			<div className="Project" key={project.name}>
-				{photoReturn(project.name)}
-				<div>
-					<a href={project.github} target='_blank' rel="noreferrer"><FaGithub /></a>
-				</div>
-				<h3>{project.name}</h3>
-				<p>{project.description}</p>
-				<p>Technologies used: {project.tech}</p>
-			</div>
-		))}
-	</section>
-)
-}
-
-*/
