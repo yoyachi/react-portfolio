@@ -1,4 +1,36 @@
-# Getting Started with Create React App
+# React Portfolio
+
+## Description
+
+This project was made to create my personal portfolio into a React App. You would be able to run it from any device since it is mobil friendly.
+
+## Technologies
+
+* Testing-library/jest-dom
+* Testing-library/react
+* Testing-library/user-event
+* Bootstrap
+* Icons
+* React
+* React-bootstrap
+* React-dom
+* React-icons
+* React-scripts
+* Web-vitals
+* Node
+* Manifest.json
+* CSS
+* Hotmail
+* JavaScript
+
+## Photoshoot
+
+## Depoyment Link
+
+
+## The following is a template React App information.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
