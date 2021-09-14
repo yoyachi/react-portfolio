@@ -8,7 +8,7 @@ main {
 	--primary: #318796;
 	--secondary: #1d3557;
 	--tertiary: #f0f2a6;
-	--quaternary: #8b8c89;
+	--quaternary: #31312f;
 	--quinary: #e7ecef;
 	--light: #e7ecef;
 	--dark: #353831;
@@ -355,12 +355,12 @@ textarea {
 }
 
 .card-title {
-	font-size: 1.5rem;
+	font-size: 2rem;
 	color: var(--quaternary);
 }
 
 .card-subtitle {
-	font-size: 1rem;
+	font-size: 1.2rem;
 	color: var(--tertiary);
 }
 
@@ -377,8 +377,8 @@ textarea {
 }
 
 .card-image {
-	max-width: 300px;
-	max-height: 150px;
+	max-width: 400px;
+	max-height: 200px;
 }
 
 .card-link {
@@ -387,7 +387,7 @@ textarea {
 }
 
 .padding {
-	padding: 50px;
+	padding:  50px 10px ;
 }
 
 /* Viewports Styling start*/

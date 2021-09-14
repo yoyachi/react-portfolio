@@ -114,6 +114,7 @@ function Portfolio() {
 		},
 		
 	];
+	
      //console.log(projects)
 	return (
 		<section>
@@ -125,26 +126,39 @@ function Portfolio() {
 					<li className="padding">
 						<Project work={projects[0]}></Project>
 					</li>
+				</ul>
+
+				<ul className="flex-row mobile-row">
 					<li className="padding">
 						<Project work={projects[1]}></Project>
 					</li>
 				</ul>
+
 				<ul className="flex-row mobile-row">
 					<li className="padding">
 						<Project work={projects[2]}></Project>
 					</li>
+				</ul>
+
+				<ul className="flex-row mobile-row">	
 					<li className="padding">
 						<Project work={projects[3]}></Project>
 					</li>
 				</ul>
+
 				<ul className="flex-row mobile-row">
 					<li className="padding">
 						<Project work={projects[4]}></Project>
 					</li>
+				</ul>
+					
+				
+				<ul className="flex-row mobile-row">
 					<li className="padding">
 						<Project work={projects[5]}></Project>
 					</li>
 				</ul>
+
 				<ul className="flex-row mobile-row">
 					<li className="padding">
 						<Project work={projects[6]}></Project>
