@@ -1,6 +1,4 @@
-# React Portfolio
 
-## Description
 
 This is my full stack developer portfolio that was created using React.js. It contents:
 
