@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import Card from 'react-bootstrap/Card';
 
 function Project(props) {
@@ -29,10 +29,10 @@ function Project(props) {
 	}
 
 	return (
-		<Card style={{ width: "18rem" }}>
+		<Card style={{ width: "26rem" }}>
 			<Card.Img
 				variant="top"
-				src={`/react-portfolio/images/${image}`}
+				src={`images/${image}`}
 				className="card-image"
 			/>
 			<div className="center">
